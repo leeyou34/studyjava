@@ -1,8 +1,8 @@
-package ch02_4_print_the_variable_and_system;
-
+package ch02_4_print_the_variable_and_system; //패키지 내에  VariableAndSystemMockingTest라는 소스 파일이 있음.
+											  //그리고 이 소스파일을 컴파일 해서 컴퓨터가 작동하겠금 함...
 import java.util.Scanner;
 
-public class VariableAndSystemMockingTest {
+public class VariableAndSystemMockingTest { 
 
 	public static void main(String[] args) {
 //		// question 1.
