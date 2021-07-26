@@ -9,8 +9,18 @@ public class CompareOperatorExample2 {
 		
 		double v4 = 0.1;
 		float v5 = 0.1f;
-		System.out.println(v4==v5);
-		System.out.println((float)v4==v5);
+		System.out.println(v4==v5); //false
+		System.out.println((float)v4==v5); // true
+		
+		//for string variable comparision.
+		
+		String strVar1 = "신용권";
+		String strVar2 = "신용권";
+		
+		System.out.println(strVar1.equals(strVar2)); // true
+		System.out.println(!strVar1.equals(strVar2)); // false
+		
+		
 	}
 
 }

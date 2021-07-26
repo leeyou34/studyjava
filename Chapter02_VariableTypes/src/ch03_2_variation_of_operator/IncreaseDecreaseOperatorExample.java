@@ -20,21 +20,21 @@ public class IncreaseDecreaseOperatorExample {
 
 		System.out.println("------------------3");
 		z = x++;
-		System.out.println("z= " + z);
+		System.out.println("z= " + z); // 먼저 행위가 일어난 뒤에 나중에 증가한다. 그래서 리터럴 x가 z 에 입력이 되고 난 후 1이 증감된다. "x= " + x 가 12라는 걸 위에서 명시 했고. 그 12 리터럴 값이 z에 적용하고 나중에 증감한다.
 		System.out.println("x= " + x);
 
 
 		System.out.println("------------------4");
 		z = ++x;
-		System.out.println("z= " + z);
-		System.out.println("x= " + x);
+		System.out.println("z= " + z); //14; there was adding one value were saved after stating z = x ++... since z = ++x were stated. total 2 decimal integer will be applied on x. therefore it's 14.
+		System.out.println("x= " + x); // adding another decimal integer literal on x, 13, then it will be 14.
 
 
 		System.out.println("------------------5");
 		z = ++x + y++;
-		System.out.println("z= " + z);
-		System.out.println("x= " + x);
-		System.out.println("y= " + y);
+		System.out.println("z= " + z); // 14 + 9; ++x were derived from line 30... and +1 added on 8 from line 18.
+		System.out.println("x= " + x); // 15
+		System.out.println("y= " + y); // 9
 
 	}
 
