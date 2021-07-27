@@ -22,6 +22,22 @@ public class ConditionalOperationExample1 {
 		
 		System.out.println(score + "점은 " + grade1 + "등급입니다.");
 	
+		// using if and else to break down this question.
+		
+		if (score > 90) {
+			grade1 = 'A';
+		} else {
+			if (score > 80 && score <90) {
+				grade1 = 'B';
+			} else {
+				grade1 = 'C';
+			}
+		}
+		System.out.println(score + "점은 " + grade1 + "등급입니다.");
+		
+		
+		
+		
 		// below is the coding work i tried and stuck... in order for the below coding to be worked. grade2 variable has to be initalized.
 //		char grade2 =0;
 //		if (score >= 90) {
