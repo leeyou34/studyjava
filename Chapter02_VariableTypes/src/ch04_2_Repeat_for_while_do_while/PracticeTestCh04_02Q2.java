@@ -18,7 +18,7 @@ public class PracticeTestCh04_02Q2 {
 			}
 		}
 		
-		
+		// needs to work on this code... quotted on july 28th
 		
 		
 		System.out.println("눈의 합이 5가 나왔습니다." + sum);
