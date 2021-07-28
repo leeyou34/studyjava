@@ -17,12 +17,12 @@ public class ControlFlow {
 		System.out.println("또 오세요~");
 		
 		
-		int time = 0 <= x && x <= 24;
-		if (time > 21) {
-			open = false;
+//	int time = 0 <= x && x <= 24;
+//		if (time > 21) {
+//			open = false;
 			System.out.println("영업종료");
 		}
-		time++;
+//		time++;
 	}
 
-}
+//}
