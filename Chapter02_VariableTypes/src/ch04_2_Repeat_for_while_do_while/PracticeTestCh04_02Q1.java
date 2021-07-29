@@ -3,7 +3,7 @@ package ch04_2_Repeat_for_while_do_while;
 public class PracticeTestCh04_02Q1 {
 
 	public static void main(String[] args) {
-		// Question 1.
+		// Question 2.... i accidently typoed...
 		// using for statement, there is integer starts from 1 to 100.
 		// create the sum of multiplication of numerical value 3.
 		int sum = 0; // there are two variable that needs to be solved... in conclusion, we do want to know the sum of this question.
@@ -12,6 +12,6 @@ public class PracticeTestCh04_02Q1 {
 				sum+=i;
 		}
 	}
-		System.out.println("3의 배수의 합" + sum);
+		System.out.println("total sum of multiplication" + sum);
 }
 }
