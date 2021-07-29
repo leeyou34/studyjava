@@ -1,14 +1,14 @@
 package ch02_3_promotion_casting;
 
 
-public class PromotionExample1 { // ÀÚµ¿º¯È¯¿¹Á¦¶ó´Â Å¬·¡½º¸¦ ¼±¾ðÇÑ´Ù. ÀÌ Å¬·¡½º´Â package ch02_3_promotion_casting¿¡ ÀÖ´Ù.
+public class PromotionExample1 { // ï¿½Úµï¿½ï¿½ï¿½È¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½. ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ package ch02_3_promotion_castingï¿½ï¿½ ï¿½Ö´ï¿½.
 
-	public static void main(String[] args) { // ¹®ÀÚ¿­ Çü½ÄÀÇ ¸®ÅÍ·²À» Áö´Ñ ¸ÞÀÎ ¸Þ¼Òµå¸¦ ¼±¾ðÇÑ´Ù.
-		byte byteValue = 10; // 1byteÅ©±â¸¦ °¡Áö°í ÀÖ´Â byteÇüÅÂÀÇ º¯¼ö byteValue¸¦ ¼±¾ðÇÏ°í ±× º¯¼ö¿¡ ´ëÇÑ ¸®ÅÍ·²Àº 10ÀÌ´Ù.
-		int intValue = byteValue; //4byteÅ©±â¸¦ °¡Áö°í ÀÖ´Â Á¤¼ö ÇüÅÂÀÇ º¯¼ö intValue¸¦ ¼±¾ðÇÏ°í ±× º¯¼ö¿¡ ´ëÇÑ ¸®ÅÍ·²Àº byteValueÀÌ´Ù. byteValueº¯¼ö´Â byteÇüÅÂÀÔÀ¸·Î ÀÚµ¿ÀûÀ¸·Î Å¸ÀÔÀÌ º¯È¯ÇÑ´Ù.
-		System.out.println(byteValue); // ¸®ÅÍ·²(°ª) byteValue¸¦ »õ·Î¿î Çà¿¡ Ãâ·ÂÇÏ¶ó.
+	public static void main(String[] args) { // ï¿½ï¿½ï¿½Ú¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ¼Òµå¸¦ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
+		byte byteValue = 10; // 1byteÅ©ï¿½â¸¦ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ byteï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ byteValueï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½ 10ï¿½Ì´ï¿½.
+		int intValue = byteValue; //4byteÅ©ï¿½â¸¦ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ intValueï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½ byteValueï¿½Ì´ï¿½. byteValueï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ byteï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½Ñ´ï¿½.
+		System.out.println(byteValue); // ï¿½ï¿½ï¿½Í·ï¿½(ï¿½ï¿½) byteValueï¿½ï¿½ ï¿½ï¿½ï¿½Î¿ï¿½ ï¿½à¿¡ ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½.
 		
-		char charValue = '°¡';
+		char charValue = 'ê°€';
 		intValue = charValue;
 		System.out.println(intValue);
 		

@@ -1,37 +1,37 @@
 package ch02_3_promotion_casting;
 
 public class PromotionExample {
-	//PromotionExampleÀÌ¶ó´Â Å¬·¡½º¸¦ ¼±¾ðÇÑ´Ù. ÀÚ°í·Î ÀÌ Å¬·¡½º´Â ch02_3_promotion_castingÀÌ¶ó´Â ÆÐÅ°Áö ³»ºÎ¿¡ ÀÖ´Ù.
-	public static void main(String[] args) { // ¹®ÀÚ¿­ ÇüÅÂ ³íÀÇÀÇ °íÁ¤Çü ¸ÞÀÎ ¸Þ¼Òµå¸¦ ¼±¾ðÇÑ´Ù.  
-		byte byteValue = 10; // byteValue¶ó°í ºÒ¸®´Â byteÇüÅÂÀÇ Á¤¼öÇü º¯¼ö´Â 10ÀÇ °ªÀ» °¡Áø´Ù. 
-		int intValue = byteValue; // intValue¶ó°í ºÒ¸®´Â int ÇüÅÂÀÇ Á¤¼öÇü º¯¼ö´Â °ð byteValue º¯¼ö¿Í µ¿ÀÏÇÏ´Ù.
-		System.out.println("intValue: " + intValue); // »õ·Î¿î Çà¿¡ ´ÙÀ½°ú °°ÀÌ "intValue:" + intValue°ª¸¦ Ãâ·ÂÇÏ¶ó.
+	//PromotionExampleï¿½Ì¶ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½. ï¿½Ú°ï¿½ï¿½ ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ch02_3_promotion_castingï¿½Ì¶ï¿½ï¿½ ï¿½ï¿½Å°ï¿½ï¿½ ï¿½ï¿½ï¿½Î¿ï¿½ ï¿½Ö´ï¿½.
+	public static void main(String[] args) { // ï¿½ï¿½ï¿½Ú¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ¼Òµå¸¦ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.  
+		byte byteValue = 10; // byteValueï¿½ï¿½ï¿½ ï¿½Ò¸ï¿½ï¿½ï¿½ byteï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 10ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½. 
+		int intValue = byteValue; // intValueï¿½ï¿½ï¿½ ï¿½Ò¸ï¿½ï¿½ï¿½ int ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ byteValue ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.
+		System.out.println("intValue: " + intValue); // ï¿½ï¿½ï¿½Î¿ï¿½ ï¿½à¿¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ "intValue:" + intValueï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½.
 		
-		char charValue ='°¡'; //charValue¶ó´Â Á¤¼öÅ¸ÀÔÀÇ char(¹®ÀÚ)Çü º¯¼ö´Â '°¡'ÀÇ °ªÀ» °¡Áø´Ù.
-		intValue = charValue; // º¯¼ö intValue´Â °ð º¯¼ö charValue°ú µ¿ÀÏÇÏ´Ù.
-		System.out.println("°¡ÀÇ À¯´ÏÄÚµå: " + intValue); // »õ·Î¿î Çà¿¡ ´ÙÀ½°ú °°ÀÌ "°¡ÀÇ À¯´ÏÄÚµå: " + intValue°ª¸¦ Ãâ·ÂÇÏ¶ó.
+		char charValue ='ê°€'; //charValueï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ char(ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 'ï¿½ï¿½'ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+		intValue = charValue; // ï¿½ï¿½ï¿½ï¿½ intValueï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ charValueï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½: " + intValue); // ï¿½ï¿½ï¿½Î¿ï¿½ ï¿½à¿¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½: " + intValueï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½.
 		
-		intValue =50; //º¯¼ö intValue´Â 50ÀÇ °ªÀ» °¡Áø´Ù.
-		long longValue = intValue; //longValue¶ó´Â Á¤¼öÇü º¯¼ö´Â °ð intValue¿Í µ¿ÀÏÇÏ´Ù.
-		System.out.println("longValue: " + longValue); // »õ·Î¿îÇà¿¡ ´ÙÀ½°ú °°ÀÌ "longValue: " + longValue°ªÀ» Ãâ·ÂÇÏ¶ó.
+		intValue =50; //ï¿½ï¿½ï¿½ï¿½ intValueï¿½ï¿½ 50ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+		long longValue = intValue; //longValueï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ intValueï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.
+		System.out.println("longValue: " + longValue); // ï¿½ï¿½ï¿½Î¿ï¿½ï¿½à¿¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ "longValue: " + longValueï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½.
 		
-		longValue = 100; //º¯¼ö longValue´Â 100ÀÇ °ªÀ» °¡Áø´Ù.
-		float floatValue = longValue; //floatValue¶ó´Â ½Ç¼öÅ¸ÀÔÀÇ º¯¼ö´Â °ð longValue¶ó´Â Á¤¼öÇü º¯¼ö¿Í µ¿ÀÏÇÏ´Ù.
-		System.out.println("floatValue: " + floatValue);// »õ·Î¿îÇà¿¡ ´ÙÀ½°ú °°ÀÌ "floatValue: " + floatValue°ªÀ» Ãâ·ÂÇÏ¶ó.
+		longValue = 100; //ï¿½ï¿½ï¿½ï¿½ longValueï¿½ï¿½ 100ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+		float floatValue = longValue; //floatValueï¿½ï¿½ï¿½ ï¿½Ç¼ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ longValueï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.
+		System.out.println("floatValue: " + floatValue);// ï¿½ï¿½ï¿½Î¿ï¿½ï¿½à¿¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ "floatValue: " + floatValueï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½.
 		
-		floatValue = 100; //º¯¼ö floatValue´Â 100ÀÇ °ªÀ» °¡Áø´Ù.
-		double doubleValue = floatValue; //doubleValue¶ó´Â ½Ç¼öÅ¸ÀÔÀÇ º¯¼ö´Â °ð floatValue¶ó´Â ½Ç¼öÅ¸ÀÔ º¯¼ö¿Í µ¿ÀÏÇÏ´Ù.
-		System.out.println("doubleValue: " + doubleValue); //»õ·Î¿îÇà¿¡ ´ÙÀ½°ú °°ÀÌ "doubleValue: " + doubleValue°ªÀ» Ãâ·ÂÇÏ¶ó.
+		floatValue = 100; //ï¿½ï¿½ï¿½ï¿½ floatValueï¿½ï¿½ 100ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+		double doubleValue = floatValue; //doubleValueï¿½ï¿½ï¿½ ï¿½Ç¼ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ floatValueï¿½ï¿½ï¿½ ï¿½Ç¼ï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.
+		System.out.println("doubleValue: " + doubleValue); //ï¿½ï¿½ï¿½Î¿ï¿½ï¿½à¿¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ "doubleValue: " + doubleValueï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½.
 		
 //
-// Å¸ÀÔ(ÀÚ·áÇü) º¯È¯¿¡´Â µÎ°¡Áö ÇüÅÂ·Î ±¸ºÐ µÈ´Ù.
-// 	1. ÀÚµ¿(¹¬½ÃÀû) : This calls promotion, ÀÚ¹Ù´Â... literal(°ª)À» 30À¸·Î ÇÑ´Ù¸é. ÀÚ·áÇüÀ» int(Á¤¼ö)·Î ÀÎ½ÄÇÑ´Ù. ÄÄÆÄÀÏ·¯...
-// 	2. °­Á¦(¸í½ÃÀû) : This calls conversion, 
+// Å¸ï¿½ï¿½(ï¿½Ú·ï¿½ï¿½ï¿½) ï¿½ï¿½È¯ï¿½ï¿½ï¿½ï¿½ ï¿½Î°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Â·ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½È´ï¿½.
+// 	1. ï¿½Úµï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½) : This calls promotion, ï¿½Ú¹Ù´ï¿½... literal(ï¿½ï¿½)ï¿½ï¿½ 30ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ´Ù¸ï¿½. ï¿½Ú·ï¿½ï¿½ï¿½ï¿½ï¿½ int(ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½ ï¿½Î½ï¿½ï¿½Ñ´ï¿½. ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½...
+// 	2. ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½) : This calls conversion, 
 // 
-// 	literal(°ª) Çã¿ë¹üÀ§°¡ Å« Å¸ÀÔ = ÀÛÀºÅ¸ÀÔ (byte, short, int, long, float, double)
+// 	literal(ï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å« Å¸ï¿½ï¿½ = ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ (byte, short, int, long, float, double)
 // 	for example) 
-//	 "°ª ¼Õ½Ç"... losing literal
-//	byte bv = 100; -> byteÀÇ ÃÖ´ë°ªÀº 127ÀÓÀ¸·Î. 100±îÁø ±¦Âú´Ù.
+//	 "ï¿½ï¿½ ï¿½Õ½ï¿½"... losing literal
+//	byte bv = 100; -> byteï¿½ï¿½ ï¿½Ö´ë°ªï¿½ï¿½ 127ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½. 100ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 //	int  iv = bv;  
 //
 //
