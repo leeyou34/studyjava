@@ -1,4 +1,4 @@
-package Ch05_2_array;
+package ch05_2_arrayre;
 
 public class ArrayCreateByValueExample {
 
