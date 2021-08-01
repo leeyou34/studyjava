@@ -14,18 +14,19 @@ public class ArrayCreateByValueListExample2 {
 	
 		
 		
-		int sum2 = add(/*0xBC123*/ new int[]{83,90,87}); // instructor types thid code to explain how that text shows...
-		//int sum2 = add( new int[]{83,90,87});
+		int sum2 = add(/*0xBC123*/ new int[]{83,90,87}); // instructor types this code to explain how that text shows...
+		//int sum2 = add( new int[]{83,90,87}); int sum2 variable has add method with creating array...
 		System.out.println("총합 : " + sum2);
 		System.out.println();
 	}
 	// add(3,7)
-	private static int add(int[] scores) { // int[] scores 배렬의 참조를 가지고 있는 변수...
+	private static int add(int[] scores) { // int[] scores 배렬의 참조를 가지고 있는 변수... // this method shows how add method will operate.. based on the statement(실행문)
 		int sum = 0;
 		for(int i = 0; i <3; i++) {
 			sum+= scores[i];
 		}
 		return sum;
 	}
+
 
 }
