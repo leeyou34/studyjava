@@ -14,6 +14,18 @@ public class PracticeTestCh05_2_5 {
 		double avg = 0.0; // same as above...
 		
 		// code writing...
+		/* multi-dimensional array will be listed as...
+		* array[0]=95;
+		* array[0]=86;
+		* array[1]=83;
+		* array[1]=92;
+		* array[1]=96;
+		* array[2]=78;
+		* array[2]=83;
+		* array[2]=93;
+		* array[2]=87;
+		* array[2]=88;
+		*/
 		
 		int count = 0; // let's call count variable and initalizing it.
 		for( int i = 0; i < array.length; i++ ) { // i is similar to x...  
