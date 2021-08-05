@@ -10,12 +10,12 @@ public class PracticeTestCh05_2_4 {
 //				{83, 92, 96},
 //				{78, 83, 93, 87, 88}
 //		};
-//		System.out.println(array[0].length); // this array 0 has two array
-//		System.out.println(array.length); // arrary.length is same as array[1].length... this array has 3 length
-//		System.out.println(array[1].length); // this array 1 has 3 length
-//		System.out.println(array[2].length); // this array 2 has 5 length.
+//		System.out.println(array[0].length); // this 0th array has two array
+//		System.out.println(array.length); // arrary.length shows how many arrays ere listed on the field. there are three arrays are mentioned. therfore, it's 3.
+//		System.out.println(array[1].length); // this 1st array has 3 length
+//		System.out.println(array[2].length); // this 2nd array has 5 length.
 //	}
-		
+//}		
 //		//question 4.
 		int max = 0; // let's declare max variable in integer type to be initalize... it's because we want to know the right value when we print
 		int[] array = {1,5,3,8,2}; // it's mono dimensional arrary. this variable "array" is in integer type and has 5 values.
