@@ -14,7 +14,7 @@ package sec06.exam06;
 		
 		//method
 		
-		public int getSpeed() { // inner method and this uses getter... it temporary gives the field value
+		public int getSpeed() { // method and this uses getter... it temporary gives the field value
 			return speed;
 		}
 		public void setSpeed(int speed) { // method was declared...this set method allows only parameter.
@@ -26,7 +26,7 @@ package sec06.exam06;
 			}
 		}
 		//getter (when field type is boolean, getter starts as 'is'
-		public boolean isStop() { // inner method
+		public boolean isStop() { //  method
 			return stop;
 			/* restrict: public
 			 * return type: field type
