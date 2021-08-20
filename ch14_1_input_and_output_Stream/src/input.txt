@@ -1,0 +1,6 @@
+id=call1212
+eng_name=jeongYongKwon
+kor_name=정
+#kor_name=윤
+data=80,90,95
+c:/Temp
