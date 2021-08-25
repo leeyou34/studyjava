@@ -58,7 +58,7 @@ public class Main {
 				
 				break;
 			case "4":
-				System.out.println("1: 회우너정보 수정 2: 회원정보 삭제");
+				System.out.println("1: 회원정보 수정 2: 회원정보 삭제");
 				String input3=sc.nextLine();
 				if(input3.equals("1")) {
 					cm.updateCustomer();
